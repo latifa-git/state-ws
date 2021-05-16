@@ -1,0 +1,26 @@
+.image {
+  border-radius: 30%;
+  align-content: center;
+}
+
+.taftaf {
+ color: red;
+}
+.parag {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes parag {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
